@@ -4,6 +4,7 @@
   "description": "A simple Iot Plataform - DB Module",
   "main": "index.js",
   "scripts": {
+    "setup": "DEBUG=platziverse:* node setup.js",
     "lint": "standart"
   },
   "author": "Platzi",
@@ -13,6 +14,9 @@
     "standart": "^6.1.0"
   },
   "dependencies": {
+    "chalk": "^4.1.0",
+    "debug": "^4.2.0",
+    "inquirer": "^7.3.3",
     "pg": "^8.3.3",
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.3.5"
